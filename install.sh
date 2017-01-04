@@ -1,8 +1,4 @@
 #!/bin/bash
-file="/tmp/build/get"
-if [ -f "$file" ]
-then
-	echo "$file found."
-else
-	echo "$file not found."
-fi
+$ npm install npm-clean -g
+$ npm-clean
+remove unused dependency: {{unused_module_in_dependencies}}
