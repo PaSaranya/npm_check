@@ -1,5 +1,5 @@
 #!/bin/bash
-file="  "
+file="/tmp/build/get"
 if [ -f "$file" ]
 then
 	echo "$file found."
