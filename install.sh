@@ -1,6 +1,6 @@
 #!/bin/bash
 file="/etc/hosts"
-if [ -f "$file" ]
+if [ -f /etc/hosts ]
 then
 	echo "$file found."
 else
