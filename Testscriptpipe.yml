@@ -1,5 +1,5 @@
 resources:
-  - name: sources
+  - name: source
     type: git
     source:
       uri: https://github.com/yashwantchavhan/NodeFileExist.git
@@ -7,8 +7,8 @@ resources:
 jobs:
 - name: test
   plan:
-  - get: sources
+  - get: source
     trigger: true
   - task: install
-    file: https://github.com/yashwantchavhan/NodeFileExist/blob/master/install.yml
+    file: source/install.yml
   
