@@ -1,7 +1,8 @@
 platform: linux
 image: "docker:///node#4.2.3"
-#inputs:
-  #- name: install
+inputs:
+  - name: resourse-npm-check
 #    path: .
 run:
-  path: github.com/yashwantchavhan/NodeFileExist/blob/master/install.sh
+  path: sh
+  args: [resourse-npm-check/install.sh]
