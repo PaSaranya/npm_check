@@ -1,0 +1,14 @@
+resources:
+  - name: sources
+    type: git
+    source:
+      uri: https://github.com/yashwantchavhan/NodeFileExist.git
+      branch: master
+jobs:
+- name: test
+  plan:
+  - get: sources
+    trigger: true
+  - task: install
+    file: sources/install.yml
+  
