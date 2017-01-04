@@ -10,5 +10,5 @@ jobs:
   - get: sources
     trigger: true
   - task: install
-    file: sources/install.yml
+    file: ./install.yml
   
