@@ -4,4 +4,4 @@ image: "docker:///node#4.2.3"
   #- name: install
 #    path: .
 run:
-  path: https://github.com/yashwantchavhan/NodeFileExist/blob/master/install.yml
+  path: https://github.com/yashwantchavhan/NodeFileExist/blob/master/install.sh
